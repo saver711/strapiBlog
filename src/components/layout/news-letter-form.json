@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_news_letter_forms",
+  "info": {
+    "displayName": "newsLetterForm"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "regex": ".*[a-zA-Z].*"
+    },
+    "subHeading": {
+      "type": "text",
+      "regex": ".*[a-zA-Z].*"
+    }
+  }
+}

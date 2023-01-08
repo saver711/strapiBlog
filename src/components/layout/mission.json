@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_missions",
+  "info": {
+    "displayName": "mission"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "regex": ".*[a-zA-Z].*",
+      "default": "Our Mission"
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "showLogo": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
